@@ -1,7 +1,12 @@
+# Exclure les environnements virtuels Python
 venv/
-*.dll
-*.pyd
-
 .venv/
+
+# Exclure les fichiers temporaires
+*.log
+*.pyc
+__pycache__/
+
+# Exclure les fichiers volumineux
 *.dll
 *.pyd
